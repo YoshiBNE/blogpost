@@ -6,11 +6,39 @@
         <link rel="stylesheet" href="./style.css">
     </head>
 
-    <body>
-        <h1>Hello, World!</h1>
-        <p>
-            This is my first paragraph. Testing. Testing. Testing. Testing. Testing. Testing. Testing. Testing. Testing. Testing. Testing. Testing. Testing. Testing. Testing. Testing. Testing. Testing. 
-        </p>
+    <body id="test">
+        <header>
+            <nav class="navbar">
+                <a href="profile.html">Yoshi's Profile</a><a href="https://medium.com/@yoshiuasuogyu/why-did-i-decide-to-study-software-engineering-f83be8be63a" target="_blank">Yoshi's Blog</a>
+            </nav>
+        </header>
+        <div class="main">
+            <script src="./script.js"></script>
+
+            <div>
+                <h1>Yoshi's WebPage</h1>
+                <img id="topImage" src="./images/palm_leaves.png" alt="palm_leaves.png">
+                <p class="intro medium">
+                    This is the first webpage created by Yoshi. This site is showing the skills learnt in a Software Engineering course provided by AcademyXi.  
+                </p>
+            </div>
+            <div class="column">
+                <div class="small wrapper">
+                    <p>This section is still on progress...This section is still on progress...This section is still on progress...This section is still on progress...This section is still on progress...This section is still on progress...This section is still on progress...This section is still on progress...This section is still on progress...This section is still on progress...</p>
+                </div>
+                <div class="small wrapper">
+                    <p>This section is still on progress...</p>
+                </div>
+                <div class="small wrapper">
+                    <p>This section is still on progress...</p>
+                </div>
+            </div>
+
+        </div>
+        <footer class="main">
+            <button type="button" onclick="changeBackground(0)">Original Image</button>
+            <button type="button" onclick="changeBackground(1)">Another Image</button>
+        </footer>
     </body>
 
 </html>
