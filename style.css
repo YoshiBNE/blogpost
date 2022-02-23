@@ -1,5 +1,5 @@
 
-
+/* Setting Image for Background of Body */
 body {
     text-align: center;
     background-image: url('images/wood_background.jpg');
@@ -8,8 +8,9 @@ body {
     background-size: cover;
 }
 
+/* Seeting Image size */
 #topImage {
-    width: 90%;
+    width: 60%;
     height: auto;
 }
 
@@ -30,7 +31,7 @@ body {
     color: #f2f2f2;
     text-align: center;
     padding: 14px 16px;
-    text-decoration: noe;
+    text-decoration: none;
     font-size: x-large;n
 }
   
@@ -40,26 +41,37 @@ body {
     color: black;
 }
 
+/* Main Heading Properties */
 h1 {
     color: blue;
     font-size: 50px;
     margin: 0;
+    font-family: serif;
 }
 
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Setting Properties of Contents */
 .main {
     background-color: rgb(197, 190, 190);
     margin: 0 10%;
     padding: 100px;
     text-align: center;
-    
+}
+
+.column {
+    text-align: center;
+    font-size: 20px;
+    padding: 0;
 }
 
 .intro {
     font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
     text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
     padding: 32px;
-
 }
 
 .wrapper {
@@ -68,11 +80,7 @@ h1 {
     overflow: scroll;
 }
 
-.column {
-    text-align: center;
-    font-size: 20px;
-    padding: 0;
-}
+
 
 .small {
     display: inline-block;
@@ -84,3 +92,4 @@ h1 {
     display: inline-block;
     width: 65%
 }
+
