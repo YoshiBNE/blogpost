@@ -1,3 +1,5 @@
+/* Different RGB color styles are used to show my understanding of color selection. */
+
 
 /* Setting Image for Background of Body */
 body {
@@ -28,11 +30,11 @@ body {
   .navbar a {
     float: right;
     display: block;
-    color: #f2f2f2;
+    color: rgb(190, 190, 190);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: x-large;n
+    font-size: x-large;
 }
   
   /* Change background on mouse-over */
@@ -43,9 +45,16 @@ body {
 
 /* Main Heading Properties */
 h1 {
-    color: blue;
+    color: #464;
     font-size: 50px;
-    margin: 0;
+    margin: 10px;
+    font-family: serif;
+}
+
+h3 {
+    color: #464;
+    font-size: 30px;
+    margin: 5px;
     font-family: serif;
 }
 
@@ -55,18 +64,19 @@ p {
 
 /* Setting Properties of Contents */
 .main {
-    background-color: rgb(197, 190, 190);
+    background-color: rgb(190, 190, 190);
     margin: 0 10%;
     padding: 100px;
     text-align: center;
 }
 
+/* Grobal properties of column*/
 .column {
     text-align: center;
     font-size: 20px;
-    padding: 0;
 }
 
+/* Properties of Introduction Paragraph*/
 .intro {
     font-size: 20px;
     text-align: center;
@@ -74,14 +84,14 @@ p {
     padding: 32px;
 }
 
+/* Grobal Properties of sub-contents*/
 .wrapper {
     background-color: bisque;
     height: 200px;
     overflow: scroll;
 }
 
-
-
+/* Specific Properties for each sub-content*/
 .small {
     display: inline-block;
     width: 32.99%;
@@ -93,3 +103,10 @@ p {
     width: 65%
 }
 
+/* Properties of footer */
+#footer {
+    background-color: rgb(190, 190, 190);
+    margin: 0 10%;
+
+    text-align: center;
+}
