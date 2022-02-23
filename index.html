@@ -2,8 +2,10 @@
 <html lang="en">
 
     <head>
-        <title>Yoshi's Website</title>
-        <link rel="stylesheet" href="./style.css">
+        <!-- Title of the web-->
+        <title>Yoshi's Homepage</title>
+        <link rel="stylesheet" type="text/css" href="./style.css">
+        <link rel="icon" type="image/x-icon" href="./images/logo_yoshi.png">
     </head>
 
     <body>
@@ -15,19 +17,26 @@
         </header>
         <!-- end of Navigation Bar-->
 
-
+        <!-- Main Content -->
         <div class="main">
             <!-- Link Javascript-->
             <script src="./script.js"></script>
 
-            <!-- Start Main Contents-->
+            <!-- Start Sub Contents-->
             <div class="column">
                 <!-- Heading of Homepage-->
                 <h1>Yoshi's WebPage</h1>
                 <!-- //////////////////-->
 
                 <!-- Image photo of home page-->
-                <img id="topImage" src="./images/blackdog.jpg" alt="my photo">
+                <img id="topImage" src="./images/blackdog.jpg" alt="my photo"><br>
+                <!-- //////////////////// -->
+
+                <!-- Buttons for users to change my profile photo-->
+                <div class="column">
+                    <button type="button" onclick="changeImage(0)">Original Image</button>
+                    <button type="button" onclick="changeImage(1)">Revealing real photo of Yoshi...</button>
+                </div>
                 <!-- //////////////////// -->
 
                 <!-- Introduction Pragraph-->
@@ -38,22 +47,31 @@
             </div>
             <!-- Some Contents (Not fully finished yet...) -->
             <div class="column">
+                <!--  Content 1: News-->
                 <div class="small wrapper">
-                    <p>This section is still on progress...This section is still on progress...This section is still on progress...This section is still on progress...This section is still on progress...This section is still on progress...This section is still on progress...This section is still on progress...This section is still on progress...This section is still on progress...</p>
+                    <h3>News</h3>
+                    <p>The Phase 0 project has been done mostly. It was my first great challege in this course so I hope there are no big mistakes. All html and css files have already been validated by the online validator from W3.</p>
                 </div>
-                <div class="small wrapper">
-                    <p>This section is still on progress...</p>
-                </div>
-                <div class="small wrapper">
-                    <p>This section is still on progress...</p>
-                </div>
-            </div>
+                <!--  End of Content 1-->
 
+                <!--  Content 2: Announcement-->
+                <div class="small wrapper">
+                    <h3>Announcement</h3>
+                    <p>This website will be finialised on 25/02/2022. There might be few errors from changing in contents or layout if you access on that day. Please be paitient. </p>
+                </div>
+                <!--  End of Content 2-->
+
+                <!--  Content 3: Plan-->
+                <div class="small wrapper">
+                    <h3>Plan</h3>
+                    <p>Has not come up with good ideas for contents of the website yet. I have a minor plan of creating a sub-page for introducing my fishin progress.</p>
+                </div>
+                <!-- End of Content 3 -->
+            </div>
+            <!-- //// End of Sub Contents //// -->
         </div>
-        <footer class="main">
-            <button type="button" onclick="changeBackground(0)">Original Image</button>
-            <button type="button" onclick="changeBackground(1)">Another Image</button>
-        </footer>
+        <!-- //// End of Main Contents //// -->
+        <div id="footer">Thank you for browsing...</div>
     </body>
 
 </html>
